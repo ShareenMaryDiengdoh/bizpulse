@@ -1,58 +1,95 @@
 # 📊 BizPulse – Business Health & Risk Analyzer
 
-**BizPulse** is a Python-based data analytics project that simulates and monitors business performance, detects revenue anomalies using both statistical and ML techniques, and visualizes KPIs using Streamlit and PDF reports.
+**BizPulse** is a powerful data analytics and reporting tool built with Python that simulates business performance, detects anomalies using both statistical and machine learning techniques, and presents actionable insights through an interactive dashboard and automated PDF reports.
+
+> 🔗 **Live App:** [Explore the Streamlit Dashboard](https://shareenmarydiengdoh-bizpulse-app-kxcgvp.streamlit.app/)  
+> 📄 **Sample PDF Report:** [Download BizPulse_Report.pdf](output/BizPulse_Report.pdf)
 
 ---
 
 ## 🚀 Features
 
-- 📈 Simulated sales & profit dataset (2023)
-- 🧪 EDA with correlation heatmaps and region-wise trends
-- 🚨 Anomaly detection using Z-score and Isolation Forest
-- 🖥️ Interactive Streamlit dashboard with filters and KPIs
-- 🧾 Auto-generated business PDF report with visuals
+- 📈 **Realistic Business Simulation** – Generate synthetic data for Revenue, Profit, Customer Satisfaction, and Marketing Spend across regions and business units.
+- 🔍 **Dual Anomaly Detection** – Detect unusual patterns using both Z-score and Isolation Forest for high confidence insights.
+- 📊 **Interactive KPI Dashboard** – Real-time visualization of revenue trends, profit margins, customer sentiment, and regional breakdowns.
+- 🧾 **PDF Report Generator** – Create automated business reports with charts, metrics, and flagged anomalies using ReportLab.
+- 📤 **Exportable Results** – Save clean anomaly CSVs and download PDF reports directly from the project output.
 
 ---
 
-## 📦 Tech Stack
+## 📸 Preview
 
-- Python, Pandas, NumPy  
-- Matplotlib, Seaborn, Plotly  
-- Scikit-learn (IsolationForest)  
-- Streamlit  
-- ReportLab (PDF generator)
+### 📍 Streamlit Dashboard (Live View)
+
+![Dashboard Preview](output/iforest_anomaly_plot.png)
+
+### 🧾 Sample PDF Report
+
+The PDF includes:
+- Revenue & Profit Trends
+- Anomaly Summary Table
+- Correlation Heatmap
+- KPI Summary Box
+
+📄 [Download Sample Report](output/BizPulse_Report.pdf)
 
 ---
 
-## 📁 File Structure
+## 🛠 Tech Stack
 
-BizPulse/
-├── app.py # Streamlit dashboard
-├── data/ # Generated business data
-├── output/ # Plots, anomaly CSVs, PDF report
-├── src/
+| Layer        | Tools Used                            |
+|--------------|----------------------------------------|
+| Programming  | Python                                 |
+| Data Handling| Pandas, NumPy                          |
+| Visualization| Matplotlib, Seaborn, Plotly            |
+| ML Models    | Z-score, Isolation Forest (Scikit-learn)|
+| Dashboard    | Streamlit                              |
+| Reporting    | ReportLab (PDF automation)             |
+
+---
+
+## 📁 Project Structure
+
+bizpulse/
+├── main.py # Main launcher script (if any pre-processing or CLI needed)
+├── app.py # Streamlit dashboard app
+├── data/ # Simulated business dataset
+│ └── bizpulse_data.csv
+├── output/ # Plots, anomaly CSVs, and PDF report
+│ └── BizPulse_Report.pdf
+├── src/ # All core project logic
 │ ├── generate_data.py
 │ ├── eda.py
 │ ├── anomaly_detector.py
 │ └── pdf_report.py
-└── README.md
+├── requirements.txt # All Python dependencies
+└── README.md # Project overview and instructions
 ---
 
-## 📸 Dashboard Screenshot
+## 🧠 Use Cases
 
-![dashboard_preview](output/revenue_anomaly_plot.png)
-
----
-
-## 📥 PDF Sample Output
-
-Download sample PDF: [BizPulse_Report.pdf](output/BizPulse_Report.pdf)
+- 📊 Business Intelligence Dashboard Showcase  
+- 🚨 Outlier Detection for Business Metrics  
+- 🧾 Automated PDF Reporting Systems  
+- 🎓 Portfolio Project for Data Analyst & ML Intern Roles  
 
 ---
 
-## 📌 How to Run
+## 🛠 How to Run Locally
 
 ```bash
+# Clone this repo
+git clone https://github.com/your-username/bizpulse.git
+cd bizpulse
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the Streamlit app
 streamlit run app.py
+
+
+
+
+
 
