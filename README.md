@@ -71,14 +71,12 @@ bizpulse/
 - 📊 Business Intelligence Dashboard Showcase  
 - 🚨 Outlier Detection for Business Metrics  
 - 🧾 Automated PDF Reporting Systems  
-- 🎓 Portfolio Project for Data Analyst & ML Intern Roles  
 
 ---
 
 ## 🛠 How to Run Locally
 
 ```bash
-# Clone this repo
 git clone https://github.com/your-username/bizpulse.git
 cd bizpulse
 
