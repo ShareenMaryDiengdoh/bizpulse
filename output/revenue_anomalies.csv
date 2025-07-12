@@ -1,0 +1,2 @@
+Date,Region,Business_Unit,Revenue,Profit,Marketing_Spend,Customer_Satisfaction,Revenue_Z,Is_Anomaly_Z
+2023-10-22,North,Product C,25843.9027534334,8675.692482415154,10367.69908950739,4.619473176469719,-3.261497364165835,True

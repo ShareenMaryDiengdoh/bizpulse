@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8c96a52-5d0c-4c9c-9404-ddfabdcad953" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BizPulse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bizpulse_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/BizPulse_Report.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/correlation_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/iforest_anomalies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/iforest_anomaly_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/interactive_revenue_plot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/profit_distribution_by_region.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/revenue_anomalies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/revenue_anomaly_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/revenue_trend_by_region.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/zscore_anomaly_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anomaly_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pdf_report.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2zl7bGCDxIq23Zy6DjB0zkYdrwK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8c96a52-5d0c-4c9c-9404-ddfabdcad953" name="Changes" comment="" />
+      <created>1752293875178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752293875178</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
